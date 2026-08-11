@@ -263,7 +263,7 @@ section p{
 @media (max-width: 768px) {
 
     header {
-        flex-direction:column;
+        padding: 15px 5%;
     }
 
     header h1 {
@@ -271,9 +271,10 @@ section p{
     }
 
     nav {
-        margin-top:15px;
-        flex-wrap:wrap;
-        justify-content:center;
+        gap: 15px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav a {
